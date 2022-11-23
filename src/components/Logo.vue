@@ -1,11 +1,11 @@
 <template>
-  <div class="flex flex-col items-center space-y-2 relative">
+  <div class="relative flex flex-col items-center space-y-2">
     <div
-      class="text-white font-bold text-4xl md:text-6xl bg-gradient-to-b shadow-lg from-purple-400 to-purple-600 px-10 py-5 rounded-3xl"
+      class="px-10 py-5 text-4xl font-bold text-white shadow-lg md:text-6xl bg-gradient-to-b from-purple-400 to-purple-600 rounded-3xl"
     >Jorgelina</div>
     <div
-      class="bg-gradient-to-b text-sm md:text-base absolute -bottom-0 transform -rotate-12 shadow-xl -right-5 from-yellow-400 to-yellow-600 text-white px-3 text-center rounded-md"
-    >CANASTILLAS</div>
+      class="absolute px-3 text-sm text-center text-white transform rounded-md shadow-xl bg-gradient-to-b md:text-base -bottom-0 -rotate-12 -right-5 from-yellow-400 to-yellow-600"
+    >CANASTILLA</div>
   </div>
 </template>
 
