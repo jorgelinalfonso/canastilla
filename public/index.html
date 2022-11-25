@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>favicon.png" />
+    <!-- seo -->
     <meta
       name="description"
       content="Jorgelina Canastilla es una galeria fotos dond epuede ver todo tipo de productos confeccionados a mano para bebés"
     />
     <meta name="author" content="Jorgelina Canastilla" />
-    <link rel="icon" href="/favicon.ico" />
     <meta name="robots" content="index, follow" />
     <meta
       name="keywords"
@@ -20,15 +21,15 @@
     <meta name="geo.region" content="Ciego de Avila, Chambas, Cuba" />
     <meta name="author" content="Karel Díaz" />
 
-    <link rel="icon" href="<%= BASE_URL %>favicon.png" />
     <title>Jorgelina Canastilla</title>
   </head>
   <body>
     <noscript>
-      <strong>
-        Lo sentimos, es necesario el JavaScript activo para el correcto
-        funcionamiento de la pagina.
-      </strong>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
